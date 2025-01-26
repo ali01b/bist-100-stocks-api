@@ -1,11 +1,7 @@
 
 import yfinance as yf
 from flask import Flask, jsonify, render_template
-from dotenv import load_dotenv
 
-
-
-load_dotenv()
 
 ## Calculates
 from calculators.support_resistance import calculate_support_resistance
